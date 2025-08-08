@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "760759678028",
+    "project_id": "altwrong-7fcef",
+    "storage_bucket": "altwrong-7fcef.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760759678028:android:455d97545a74c63d3230e9",
+        "android_client_info": {
+          "package_name": "com.example.altwrong"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMgz7vX7Y0s4jiZQag2978D7XrKAB40Vs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
