@@ -1,14 +1,15 @@
 import 'package:altwrong/display/homepage.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 Future<void> main() async {
+  TapSemanticEvent();
   runApp(const MyApp());
   await dotenv.load();
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  
 }
 
 class MyApp extends StatelessWidget {
@@ -39,9 +40,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       home: Scaffold(
-  appBar: AppBar(title: Text('Test UI')),
-  body: Center(child: Text('Hello, World!')),
-),
+        appBar: AppBar(title: Text('Test UI')),
+        body: Center(child: Text('Hello, World!')),
+      ),
     );
   }
 }
